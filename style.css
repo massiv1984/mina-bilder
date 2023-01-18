@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: lightslategray;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.container {
+    width: min(100ch, 100vw - 4rem);
+    margin-inline: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+}
