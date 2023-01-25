@@ -27,3 +27,9 @@ ul {
     grid-template-rows: auto;
     gap: 1rem;
 }
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
