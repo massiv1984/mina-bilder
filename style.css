@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     height: 100vh;
     background-color: lightslategray;
+    font-family: sans-serif;
 }
 
 img {
@@ -32,4 +33,6 @@ nav > ul {
     display: flex;
     list-style: none;
     gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
